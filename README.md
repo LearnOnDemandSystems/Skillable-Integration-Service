@@ -2,7 +2,7 @@
 
 ## Enable Scoring, Life Cycle Actions and Activity Based Assessments
 
-To enable scoring, Life Cycle Actions (LCA) and Activity Based Assessments (ABA), the Skillable integration service must be installed on all Windows-based virtual machines that will use these features.
+To enable scoring, Life Cycle Actions (LCA) and Activity Based Assessments (ABA), the Skillable integration service must be installed on all Micosoft Azure hosted Windows-based virtual machines that will use these features.
 
 These features are enabled by installing the Skillable Integration Service by executing a PowerShell script in the VM. 
 
