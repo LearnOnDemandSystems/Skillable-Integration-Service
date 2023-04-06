@@ -1,5 +1,5 @@
 #!/bin/bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ChadSpears/Skillable-Integration-Service/main/Linux/publish.tar.gz)"
+sh -c "$(curl -fsSL https://github.com/ChadSpears/Skillable-Integration-Service/blob/main/Linux/publish.tar.gz)"
 tar -xf publish.tar.gz -C /usr/local/bin
 chmod +x /usr/local/bin/publish/Skillable.Labs.VmIntegrationService
 echo "[Unit]
