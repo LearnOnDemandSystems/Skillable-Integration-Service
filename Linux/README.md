@@ -12,9 +12,7 @@ Before installing the integration service, there must not be any previous versio
 
     i. ```sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/ChadSpears/Skillable-Integration-Service/main/Linux/install.sh)"```
 
-1. You may need to allow execution of the script by modifying the permissions: ```Chmod + X ./install.sh```
-1. Run script with ```./install.sh```
-1. After script has executed, reboot the VM.
+1. After script has executed, reboot the VM. ```sudo shutdown -r now```
 1. Once the VM is rebooted, the integration service may take a few minutes to start. Scoring, LCAs, and ABAs will not function correctly until the integration service is running.
 
 ## Verify Integration Service is Running
@@ -28,6 +26,6 @@ You can verify the service can be reached by following these steps:
 1. From a web browser on a external internet connected machine.
 1. You may navigate to the following URL to ensure the service is reachable: 'http://PublicIP:2724'
 
-If a page displays with the _Skillable Integration Service_ on the page, the service is running. Scoring, LCAs, and ABA will now function correctly. 
+If a page displays with the _Skillable Integration Service_ on the page, the service is running. Scoring, LCAs, and ABA will now function correctly.
 
-You may also restart, stop, start, and check the status of the service with SystemCtl.
+You may also Start, Stop, Restart, and check the Status of the service with SystemCtl.
