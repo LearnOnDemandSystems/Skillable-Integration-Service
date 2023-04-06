@@ -3,6 +3,7 @@
 To enable scoring, Life Cycle Actions (LCA) and Activity Based Assessments (ABA), the Skillable integration service must be installed on all AWS hosted Linux-based virtual machines that will use these features.
 
 These features are enabled by installing the Skillable Integration Service by executing a shell script in the VM.
+Steps provided are for use with operating systems using Systemd Initialization Service. 
 
 ## Copy Integration Service Files and Run Configuration Script
 Before installing the integration service, there must not be any previous version of the service installed on the VM.
