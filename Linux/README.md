@@ -10,7 +10,7 @@ Before installing the integration service, there must not be any previous versio
 1.  Ensure there are no previous versions of the integration service installed on the VM.
 1. Download the installation script from the repository.
 
-    i. ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ChadSpears/Skillable-Integration-Service/main/Linux/install.sh)"```
+    i. ```sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/ChadSpears/Skillable-Integration-Service/main/Linux/install.sh)"```
 
 1. You may need to allow execution of the script by modifying the permissions: ```Chmod + X ./install.sh```
 1. Run script with ```./install.sh```
