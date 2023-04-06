@@ -12,7 +12,7 @@ Before installing the integration service, there must not be any previous versio
 1.  Ensure there are no previous versions of the integration service installed on the VM.
 1. Download and execute the installation script from the repository.
 
-    i. ```sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/ChadSpears/Skillable-Integration-Service/main/Linux/install.sh)"```
+    i. ```sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/LearnOnDemandSystems/Skillable-Integration-Service/main/Linux/install.sh)"```
 
 1. After script has executed, reboot the VM.
 
@@ -29,8 +29,13 @@ You can verify the service is running by following these steps:
 You can verify the service can be reached by following these steps:
 
 1. From a web browser on a external internet connected machine.
-1. You may navigate to the following URL to ensure the service is reachable: 'http://PublicIP:2724'
+1. You may navigate to the following URL to ensure the service is reachable: `PublicIP:2724`
 
 If a page displays with the _Skillable Integration Service_ on the page, the service is running. Scoring, LCAs, and ABA will now function correctly.
 
 You may also Start, Stop, Restart, and check the Status of the service with SystemCtl.
+
+1. `sudo systemctl start skillable.service`
+1. `sudo systemctl stop skillable.service`
+1. `sudo systemctl restart skillable.service`
+1. `systemctl status skillable.service`
