@@ -13,7 +13,8 @@ Before installing the integration service, there must not be any previous versio
 
     i. ```sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/ChadSpears/Skillable-Integration-Service/main/Linux/install.sh)"```
 
-1. After script has executed, reboot the VM. ```sudo shutdown -r now```
+1. After script has executed, reboot the VM.
+    i. ```sudo shutdown -r now```
 1. Once the VM is rebooted, the integration service may take a few minutes to start. Scoring, LCAs, and ABAs will not function correctly until the integration service is running.
 
 ## Verify Integration Service is Running
