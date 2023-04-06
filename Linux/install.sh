@@ -1,5 +1,5 @@
 #!/bin/bash
-curl -L https://github.com/ChadSpears/Skillable-Integration-Service/blob/main/Linux/publish.tar.gz | tar zxv -C /usr/local/bin
+curl -L https://github.com/ChadSpears/Skillable-Integration-Service/blob/main/Linux/publish.tar.gz?raw=true | tar zxv -C /usr/local/bin
 chmod +x /usr/local/bin/publish/Skillable.Labs.VmIntegrationService
 echo "[Unit]
 Description=Skillable Script Execution Service.
