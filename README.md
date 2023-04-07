@@ -24,7 +24,7 @@ Before installing the integration service, there must not be any previous versio
 1. Ensure there are no previous versions of the integration service installed on the VM: 
 	1. Navigate to **Programs and Features** in the Control Panel and ensure there is no integration service listed in the installed list. 
 1. Download the contents of this repository. This repository contains a PowerShell script and a folder that contains the integration service. You can download the repository contents by selecting the green **_Code_** button and then selecting **_Download ZIP_**.
-    >[!note] The simplest method to get these files into the VM is to access this repository from the VM and download the files.
+    >[note] The simplest method to get these files into the VM is to access this repository from the VM and download the files.
 1. Copy the **downloaded VmIntgegrationService.zip** and **install.ps1** files to the virtual machine, using your preferred method to transfer files to the VM.
 1. In the VM, move the downloaded **VmIntegrationService folder** to the **root of the VM's C drive**. 
 1. Navigate back to the downloaded files, and **run the `install.ps1` PowerShell script**, as an administrator, by right-clicking and selecting the option to run as administrator. 
